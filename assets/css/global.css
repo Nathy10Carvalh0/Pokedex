@@ -1,3 +1,10 @@
 *{
    font-family: 'roboto', sans-serif;
 }
+.content{
+   padding: 1rem;
+}
+
+.content h1 {
+   margin: 0;
+}
