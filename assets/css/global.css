@@ -17,10 +17,15 @@ ol.Pokemons{
    margin:0;
 }
 ol.Pokemons li {
+   display: flex;
+   flex-direction: column;
    margin: .5rem;
    padding: 2rem 1rem;
    background-color: #14A06F;
    color: #FFE;
    border-radius: 1rem;
+}
+ol.Pokemons li img {
+   max-width: 100%;
    height: 100px;
 }
