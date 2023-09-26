@@ -1,5 +1,5 @@
 
-.pokemons{
+.Pokemons{
     display: grid;
      grid-template-columns: 1fr;
     list-style:none;
