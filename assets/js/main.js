@@ -26,20 +26,13 @@ const pokemonsList = document.getElementById('pokemonsList')
 
 pokeapi.getPokemons().then((Pokemons = []) => {
 
-const newList = Pokemons.map[(pokemon) =>{
-    return convertPokemonToLi(pokemon)
-}]
+   const newList = Pokemons.map((pokemon) =>{
+        return convertPokemonToLi(pokemon)
+    })
+    
+const newHtml = newList.join('')
 
-const newhtml = newList.join()
-pokemonsList.innerHTML =newhtml
+    pokemonsList.innerHTML = newHtml
 
-/*
-
-    const listItens = []
-             for (let i = 1; i < Pokemons.length; i++) {
-            const pokemon = Pokemons[i];  
-            listItens.push(convertPokemonTLi(pokemon))  
     }
-    console.log(listItens)
-*/ }
 ) 
