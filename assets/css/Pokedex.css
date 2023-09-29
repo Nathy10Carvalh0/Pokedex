@@ -1,7 +1,7 @@
 
 .Pokemons{
     display: grid;
-     grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
     list-style:none;
     padding:1%;
     margin:0;
