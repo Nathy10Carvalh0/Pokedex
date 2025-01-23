@@ -26,7 +26,7 @@ function loadPokemonItens(offset, limit){
             </div>
         </li>
         ` ).join('')
-    pokemonsList.innerHTML += newHtml
+    pokemonsList.innerHTML+= newHtml
     }) 
 }
 
